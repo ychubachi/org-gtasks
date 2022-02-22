@@ -253,7 +253,7 @@
 	    "  :END:\n"
 	    (when notes (concat notes "\n"))
             (when links
-              (concat "\n  :links:\n"
+              (concat "  :links:\n"
                       (mapconcat (lambda (link)
 				   (let* ((type (plist-get link :type))
 					  (org-link (plist-get link :link))
